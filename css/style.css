@@ -37,16 +37,9 @@ main{
     justify-content: center;
 }
 div.box{
-    width:200px; 
-    height:90px;
-    font-size:10px
+    width: 185px; 
+    height:110px;
 }
-div.box-inner{
-    height: 200px;
-    overflow:auto;
-    margin:25px 24px 0;
-    padding-right:2px
-    }
 
 /* footer */
 footer{
