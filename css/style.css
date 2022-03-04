@@ -22,11 +22,16 @@ header{
     background-color: #222222;
     align-items :flex-start;
     justify-content: flex-end;
-    gap: 3%;
+    gap: 10px;
     z-index: 1000;
 }
 #fa-border-all{
     padding-right: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .Speaker-View{
     height: 100%;
@@ -36,6 +41,13 @@ header{
     background-color: #4A4A4A;
     padding-left: 10px;
     border-radius: 5px;
+}
+.Speaker{
+    display: flex;
+    padding: 5px;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    padding: 6px;
 }
 /* /header */
 
@@ -68,13 +80,9 @@ div.box{
     background-color: rgba(120,120,120, 0.30);
     display: flex;
     padding-right: 10px;
-    padding-left: 10px;
     position: absolute;
     align-items: baseline;
     z-index: 100;
-    
-    
-
 }
 
 /* footer */
@@ -91,6 +99,7 @@ footer{
     justify-content: space-between;
     gap: 3%;
     z-index: 1000;
+    overflow: hidden;
 }
 .left{
     display: flex;
@@ -111,15 +120,9 @@ footer{
     height: 35px;
     align-self: center;
 }
-#green {
-    color: rgb(76, 199, 0)
+.icon i:hover{
+    color: rgb(76, 199, 0);   
 }
-{
-    color: greenyellow;
-}
-/* .text{
-    padding-left: 15px;
-} */
 .video{
     display: flex;
     align-items:center;
